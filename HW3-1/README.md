@@ -3,7 +3,7 @@
 
 > ##  ``` Selenium - Chrome Profil Kullanımı   ``` 
  
-Chrome profilinin yolunu getirmek için öncelikle kullanıcı adına ihtiyacımız var. Bu metodu kullanıcı adını almak için kullandım.
+Chrome profilinin yolunu getirmek için öncelikle kullanıcı adına ihtiyacımız var. Kullanıcı adını getirmek için UserName methodu yazıldı.
  
 ```java
   public static String UserName() {
@@ -15,7 +15,7 @@ Chrome profilinin yolunu getirmek için öncelikle kullanıcı adına ihtiyacım
     }
 ```
 
-Chrome profilini aktarmak için chromeoption kullanıldı. Kullanıcı veri yolunu arguman olarak set edip chromedriver nesnesini çağırdım. Böylelikle profile erişmiş oldum.
+Chrome profilini aktarmak için ise chromeoption kullanıldı. Kullanıcı veri yolunu arguman olarak`(user-data-dir)` set edip chromedriver nesnesini çağırdım. Böylelikle profile erişmiş oldum.
  
 ```java
     public static void main(String[] args) {
